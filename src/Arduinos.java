@@ -15,7 +15,6 @@ public class Arduinos {
 	float onThreshold = 0.00f; // smallest value (0-1) that has to be exceeded before applying the minimum start pwm value minArduinoValue	
 	float multiplyValue;	
 	int previousA, previousB; 
-	int coolCat;// yeah yea 
 	
 	boolean vibeMode = false;
 	int vibeMaxArduinoValue = 185, vibeMinArduinoValue = 35;
